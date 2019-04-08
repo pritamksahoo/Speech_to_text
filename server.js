@@ -43,7 +43,7 @@ app.use(bodyparser.json());
 // app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + "index.html");
+    res.sendFile(__dirname + "/index.html");
 });
 
 app.post('/uploadAudio', functions.uploadAudio);
