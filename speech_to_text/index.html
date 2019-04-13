@@ -1,0 +1,43 @@
+<head>
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.min.js"></script>
+</head>
+
+<body style="background-color: #333344;">
+<div class="container" style="width:100%; margin-top: 13em;">
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<h3 style="color: #ddddee">Online Speech to Text Conversion</h3><hr>
+<form name="myForm" method="POST" action="/uploadAudio" enctype="multipart/form-data">
+	<div class="row">
+	  <div class="form-group" style="margin-left: 1em;">
+		<input type="file" name="articles[]" style="color: white"><br>
+		  <button class="btn btn-success" type="submit" style="color: white;">
+		  <i class="browse glyphicon glyphicon-cloud-download" style="color: white"></i>
+		   Convert & Download
+		  </button>
+	  </div>
+	</div>
+</form>
+</div>
+<div class="col-md-4"></div>
+</div>
+</div>
+</body>

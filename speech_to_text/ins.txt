@@ -1,0 +1,3 @@
+cf login -a https://api.eu-gb.bluemix.net -u pritam.ndp@gmail.com
+
+cf push myApp -n pritamksahoo -c "node server.js" -m 256M -k 1024M -b https://github.com/cloudfoundry/nodejs-buildpack
